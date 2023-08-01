@@ -34,3 +34,7 @@ Route::post('/thumb', [ThumbController::class, 'thumb']);
 Route::get('/communicate', function () {
     return view('communicate');
 });
+
+Route::get('/wishlist', function () {
+    return view('wishlist');
+});
